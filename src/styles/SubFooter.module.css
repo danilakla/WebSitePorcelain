@@ -1,0 +1,9 @@
+.Container{
+    background-color: rgba(73, 71, 71, 0.1);
+    text-align: center;
+    padding: 30px 0 20px 0;
+
+}
+.customSpan{
+    color: #6C6C6C  ;
+}

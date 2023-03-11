@@ -1,0 +1,41 @@
+.title{
+    margin-top: 100px;
+    text-align: center;
+}
+.circle{
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+border: 20px solid ;
+    text-align: center;
+    display: flex;
+flex-direction: column;
+    color: white;
+justify-content: center;
+transition: 0.6s;
+scale: 1;
+}
+.circle:hover{
+scale: 1.09;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.textBlock{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 140px;
+}
+.itemTitleCategoryFirst{
+    margin-right: 100px;
+}
+
+.itemTitleCategorySecond{
+    margin-left: 100px;
+}

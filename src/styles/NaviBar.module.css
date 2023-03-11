@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "CustomS";
+    src: local("../fonts/Pacifico-Regular.ttf");
+}
+.brandTitle{
+    font-family: "CustomS","sans-serif";
+}
+
+.firstItem{
+    color: #AC1313;
+}
+
+.item{
+    margin-right: 50px;
+}
+
+.border{
+    border-right: 1px solid gray;
+margin-right: 20px;
+    padding-right: 20px;
+}
+.imgBorder{
+    margin-right: 5px  ;
+}
+.containerMargin{
+    padding: 10px 0 10px 0 ;
+    margin-right: 100px;
+    margin-left: 100px;
+
+
+}
+.navBar{
+z-index: 10000;
+    position: sticky;
+    top: 0;
+}

@@ -1,0 +1,61 @@
+.title{
+    margin-top: 200px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.imgShopTitle{
+    max-width: 371px;
+    min-height: 500px;
+    margin-bottom: 20px;
+}
+
+.hoverItem{
+    transition: 1s;
+    z-index: 100;
+    position: absolute;
+    display:block;
+    background-color: rgba(37, 36, 36, 0.4);
+    height: 97%;
+    width: 100%;
+    color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contentPart{
+position: relative;
+    z-index: 90;
+    text-align: center;
+color: white}
+.hoverFirst{
+    transition: 1s;
+    height: 100%;
+
+    display: none;
+}
+.btn{
+
+    background-color: rgba(0,0,0,0);
+    color: #000000;
+    border: 1px solid #000000;
+    padding: 10px 50px   ;
+    transition: 1s;
+}
+.btn:hover{
+    color: white;
+    background-color: rgba(87, 87, 87, 0.6);
+
+    border: 1px solid white;
+
+}
+.listContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.itemSh{
+    border-bottom: 1px solid gray;
+    margin-top: 15px;
+}

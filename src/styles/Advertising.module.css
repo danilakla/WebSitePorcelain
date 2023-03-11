@@ -1,0 +1,11 @@
+.bckImg{
+    background: url("../img/img_14.png") no-repeat center center fixed ;
+    width: 100%;
+    height: 472px
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}

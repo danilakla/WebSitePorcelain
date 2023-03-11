@@ -1,0 +1,15 @@
+.containerFooter{
+text-align: center;
+    background-color: #DBDBDB1A;
+    padding-top: 70px;
+padding-bottom: 100px   ;
+}
+.titelFooter{
+    font-size: 33px;
+}
+.listFooterContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+}

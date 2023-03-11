@@ -1,0 +1,30 @@
+.bckImg{
+    background-image:url("../img/img_1.png") ;
+    width: 100%;
+    height: 100vh;
+}
+.blockContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.centerblock{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container{
+    animation: 1s ease  slidein;
+}
+
+@keyframes slidein {
+    from {
+        transform: translateY(300px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
